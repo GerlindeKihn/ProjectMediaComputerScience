@@ -13,7 +13,6 @@ body {
     height: 200px;
     width: 100%;
     position: relative;
-
     border-bottom: 3px solid mintcream;
 }
 .video-container video {
@@ -179,4 +178,22 @@ body {
     .right {
         left: 0%;
     }
+}
+
+/*styling footer*/
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #4d9900;
+    color: green;
+    border-top: 1px solid mintcream;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bolder;
 }
