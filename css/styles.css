@@ -1,6 +1,11 @@
-/*extend video at top over whole width*/
+/*extend video at top over whole width with margin and set background*/
 body {
     margin: 0;
+    background-image: url(../media/cup.PNG);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
 }
 
 /*style video-container*/
@@ -8,6 +13,8 @@ body {
     height: 200px;
     width: 100%;
     position: relative;
+
+    border-bottom: 3px solid mintcream;
 }
 .video-container video {
     width: 100%;
@@ -33,18 +40,15 @@ body {
 .headline {
     font-family: "Goudy Old Style";
     font-size: 38px;
+    font-weight: bold;
     text-align: center;
     padding: 0px;
-    color: #3b4b21;
-}
-* {
-    box-sizing: border-box;
+    color: white;
+    -webkit-text-stroke: 0.2px #3b4b21;
 }
 
-/*set background color*/
-body {
-    background-color: #b3ff66;
-    font-family: Helvetica, sans-serif;
+* {
+    box-sizing: border-box;
 }
 
 /*style timeline (vertical ruler)*/
