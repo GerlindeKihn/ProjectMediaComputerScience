@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+
+body.shop {
+    background-image: url(../media/online_shopping.PNG);
+}
+
+body.impressum {
+    background-image: url(../media/logo.PNG);
+}
+
+.headline {
+    font-family: "Goudy Old Style";
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: #4d9900;
+    -webkit-text-stroke: 0.5px #3b4b21;
+}
+
+.heading {
+    font-family: "Helvetica";
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: #ff4500;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.text {
+    font-family: "Helvetica";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    -webkit-text-stroke: 1px #ff4500;
+}
+
+.impressum_headline {
+    font-family: "Helvetica";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    -webkit-text-stroke: 1px #ff4500;
+}
+
+.impressum_text {
+    font-family: "Helvetica";
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: #3b4b21;
+    -webkit-text-stroke: 0.5px white;
+}
+
