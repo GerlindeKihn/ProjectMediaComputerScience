@@ -64,3 +64,23 @@ body.impressum {
     -webkit-text-stroke: 0.5px white;
 }
 
+.quizz_headline {
+    font-family: "Helvetica";
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: #ff8c00;
+    -webkit-text-stroke: 3px #ff4500;
+}
+
+.quizz_text {
+    font-family: "Helvetica";
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: #ff8c00;
+    -webkit-text-stroke: 2px #ff4500;
+}
+
