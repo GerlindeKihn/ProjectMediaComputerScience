@@ -1,3 +1,8 @@
+/* define some default values */
+html {
+    --main-accent-color: #4d9900;
+}
+
 /*extend video at top over whole width with margin and set background*/
 body {
     margin: 0;
@@ -84,7 +89,7 @@ body {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: #4d9900;
+    background-color: var(--main-accent-color);
     border: 4px solid #FF9F55;
     top: 15px;
     border-radius: 50%;
@@ -144,7 +149,7 @@ body {
 }
 .year {
     text-align: center;
-    color: #4d9900;
+    color: var(--main-accent-color);;
 }
 
 /*media queries - responsive timeline on screens less than 600px wide*/
@@ -180,20 +185,40 @@ body {
     }
 }
 
+/*styling button*/
+input[type="submit"] {
+    background-color: var(--main-accent-color);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px darkgrey;
+    color: white;
+    font-family: Helvetica;
+}
+
+input[type="submit"]:hover {
+    background-color: #408000;
+}
+
+/*styling all links the same way*/
+a {
+    color: var(--main-accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+/*overwrite link-color for footer*/
+footer a {
+    color: white;
+}
+
 /*styling footer*/
 footer {
     text-align: center;
     padding: 2px;
-    background-color: #4d9900;
+    background-color: var(--main-accent-color);
     color: green;
     border-top: 1px solid mintcream;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    font-weight: bolder;
 }
